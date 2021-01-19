@@ -1,0 +1,16 @@
+@import 'core/reset';
+
+@import 'pages/index';
+
+/* my things */
+:root {
+	--font-main: "Helvetica Neue", Arial, san-serif;
+	--font-titles: "Helvetica Neue", Arial, san-serif;
+
+	--color-primary: tomato;
+}
+
+body {
+	font-family: var(--font-main);
+	font-size: 10px;
+}	

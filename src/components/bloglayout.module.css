@@ -1,0 +1,10 @@
+.container {
+  width: 960px;
+
+  margin: 0 auto;
+}
+
+.backLink {
+  color: var(--color-primary);
+  text-decoration: underline;
+}

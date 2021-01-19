@@ -1,0 +1,39 @@
+.main {
+  display: flex;
+  
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 20px 0;
+  border-bottom: 1px solid black;
+  margin: 20px;
+}
+
+.title {
+  padding-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+
+  color: var(--color-primary);
+}
+
+.row {
+  display: flex;
+
+  flex-direction: row;
+}
+
+.col {
+  display: flex;
+
+  flex-direction: column;
+}
+
+.link {
+  padding: 5px 10px;
+  font-size: 1.2rem;
+}
